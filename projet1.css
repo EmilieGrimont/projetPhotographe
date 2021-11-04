@@ -1,0 +1,23 @@
+body{
+    width: 100%;
+    text-align: center;
+}
+h1{
+    color: #F6A844;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+h2{
+    color: #B77D7C;
+    font-family: 'Open Sans Condensed', sans-serif;
+}
+#form{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+}
+#validate{
+    border-radius: 10px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: black;
+    background-color: #B77D7C;
+    border-color: #B77D7C;
+}
