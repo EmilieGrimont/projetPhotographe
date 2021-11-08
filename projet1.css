@@ -173,3 +173,44 @@ label{
     display: flex;
     justify-content: space-evenly;
 }
+#modalCookies{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: none;
+}
+#containCookies{
+    position: fixed;
+    border-radius: 15px;
+    background-color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    color: #B77D7C;
+    width: 400px;
+    height: 380px;
+    font-size: 20px;
+}
+.ButCookModal{
+    background-color: rgb(202, 202, 202);
+    font-family:'Open Sans Condensed', sans-serif;
+    color: black;
+    display: flex;
+    margin: 10px;
+    border-radius: 10px;
+    justify-content: space-between;
+    padding: 10px;
+
+}
+.ensemble{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    margin: 10px;
+}
+.ensemble button{
+    border-radius: 10px;
+    background-color: grey;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    margin-right:8px;
+    height: 60px;
+}
