@@ -2,6 +2,10 @@ body{
     width: 100%;
     text-align: center;
 }
+main {
+    width: 100%;
+
+}
 h1{
     color: #F6A844;
     font-family: 'Open Sans Condensed', sans-serif;
@@ -65,12 +69,11 @@ label{
     border-color:grey ;
 }
 #bouton{
-    height: 42px;
     border-radius: 15px;
     border-color: grey;
     background-color: white;
     font-family:'Open Sans Condensed', sans-serif;
-    font-size: 30px
+    font-size: 30px;
     text-align: center
 }
 
@@ -86,4 +89,84 @@ label{
     color: #F6A844;
     font-family: 'Open Sans Condensed', sans-serif;
     font-size: 50px;
+}
+#merci{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.contenu2{
+
+    background-color:#B77D7C;
+    width: 400px;
+    height: 300px;
+    border-radius: 10px;
+}
+#thank{
+    color: white;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+}
+#bouton2{
+    height: 42px;
+    border-radius: 15px;
+    border-color: grey;
+    background-color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    text-align: center
+}
+#bye{
+    font-family:'Open Sans Condensed', sans-serif;
+    font-size: 30px;
+    display: flex;flex-direction: column;
+    align-items: center;
+
+}
+#Photographe{
+    width: 600px;
+}
+#info{
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.cookies{
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    background-color: #F6A844;
+    font-family:'Open Sans Condensed', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    bottom: 0;
+    left: 0;
+}
+#acceptButton{
+    background-color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    color:black;
+    font-size: 15px;
+    border-radius: 8px;
+    border-color: white;
+}
+#persoButton{
+    background-color: white;
+    font-family:'Open Sans Condensed', sans-serif;
+    color:black;
+    font-size: 15px;
+    border-radius: 8px;
+    border-color: white;
+}
+.cookiesButton{
+    width: 20%;
+    display: flex;
+    justify-content: space-evenly;
 }
