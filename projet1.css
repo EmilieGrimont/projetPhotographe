@@ -69,6 +69,7 @@ label{
     height: 40px;
     border-radius: 15px;
     border-color:grey ;
+    border-style: none;
 }
 #bouton{
     border-radius: 15px;
@@ -76,7 +77,8 @@ label{
     background-color: white;
     font-family:'Open Sans Condensed', sans-serif;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+    border-style: none;
 }
 
 #clock{
@@ -122,7 +124,8 @@ label{
     background-color: white;
     font-family:'Open Sans Condensed', sans-serif;
     font-size: 30px;
-    text-align: center
+    text-align: center;
+    border-style: none;
 }
 #bye{
     font-family:'Open Sans Condensed', sans-serif;
@@ -147,7 +150,7 @@ label{
     font-family:'Open Sans Condensed', sans-serif;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
     bottom: 0;
     left: 0;
     display: none;
@@ -159,6 +162,8 @@ label{
     font-size: 15px;
     border-radius: 8px;
     border-color: white;
+    border-style: none;
+    margin-right: 10px;
 }
 #persoButton{
     background-color: white;
@@ -167,11 +172,12 @@ label{
     font-size: 15px;
     border-radius: 8px;
     border-color: white;
+    border-style: none;
 }
 .cookiesButton{
     width: 20%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: end;
 }
 #modalCookies{
     position: fixed;
@@ -206,6 +212,7 @@ label{
     border-radius: 10px;
     justify-content: space-between;
     padding: 10px;
+    height: 70px;
 
 }
 .ensemble{
@@ -221,4 +228,13 @@ label{
     font-size: 20px;
     margin-right:8px;
     height: 60px;
+    border-style: none;
+}
+#close{
+    margin-left: 90%;
+    margin-top: 10px;
+    color: grey;
+    background-color: white;
+    border-color: white;
+    border-style: none;
 }

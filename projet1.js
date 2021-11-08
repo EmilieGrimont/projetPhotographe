@@ -85,4 +85,9 @@ document.getElementById("acceptContenu").addEventListener("click", changeGreen);
 document.getElementById("acceptPub").addEventListener("click", changeGreen);
 document.getElementById("acceptMesure").addEventListener("click", changeGreen);
 
+//fermeture du modal Cookie
+function closeModal(){
+    modalCookies.style.display="none";
+}
+document.getElementById("close").addEventListener("click", closeModal)
 
