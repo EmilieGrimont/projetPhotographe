@@ -63,3 +63,26 @@ function hideCookies(){
     cookies.style.display="none";
 }
 document.getElementById("acceptButton").addEventListener("click",hideCookies);
+function setCookies(){
+    modalCookies.style.display="flex";
+}
+document.getElementById("persoButton").addEventListener("click",setCookies);
+
+//changement de couleur
+//Rouge
+function changeRed(){
+    this.style.backgroundColor="red";
+}
+document.getElementById("refusContenu").addEventListener("click", changeRed);
+document.getElementById("refusPub").addEventListener("click", changeRed);
+document.getElementById("refusMesure").addEventListener("click", changeRed);
+
+//Vert
+function changeGreen(){
+    this.style.backgroundColor="Green";
+}
+document.getElementById("acceptContenu").addEventListener("click", changeGreen);
+document.getElementById("acceptPub").addEventListener("click", changeGreen);
+document.getElementById("acceptMesure").addEventListener("click", changeGreen);
+
+
